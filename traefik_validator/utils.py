@@ -2,13 +2,13 @@ import json
 import os
 import sys
 import time
+import jsonschema
+import yaml
 import urllib.request
 from io import TextIOWrapper
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Union, Any, NoReturn
 
-import jsonschema
-import yaml
 
 from traefik_validator import settings
 
