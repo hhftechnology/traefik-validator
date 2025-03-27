@@ -38,6 +38,8 @@ def validate_traefik():
             dynamic_conf_file=args.dynamic_config,
             offline=args.offline
         )
+
+        print("✓ Configuration successfully validated!")
         
         validator.validate()
         
